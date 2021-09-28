@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 data/
+=======
+data/
+.jpynb_checkpoints
+.jpynb_checkpoints/
+>>>>>>> fashion_mnist feedforward
