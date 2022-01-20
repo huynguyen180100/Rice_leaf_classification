@@ -2,6 +2,7 @@
 data/
 =======
 data/
-.jpynb_checkpoints
-.jpynb_checkpoints/
+.ipynb_checkpoints
+.ipynb_checkpoints/
+Save
 >>>>>>> fashion_mnist feedforward

@@ -1,0 +1,26 @@
+
+Epoch: [1/20]	Loss: 2.3284
+Epoch: [1/20]	Loss: 0.1607
+Epoch: [1/20]	Loss: 0.3231
+Epoch: [1/20]	Loss: 0.2363
+Epoch: [1/20]	Loss: 0.1829
+Epoch: [2/20]	Loss: 0.0206
+Epoch: [3/20]	Loss: 0.0717
+Epoch: [4/20]	Loss: 0.1108
+Epoch: [5/20]	Loss: 0.0277
+Epoch: [6/20]	Loss: 0.1675
+Epoch: [7/20]	Loss: 0.1189
+Epoch: [8/20]	Loss: 0.0124
+Epoch: [9/20]	Loss: 0.0652
+Epoch: [10/20]	Loss: 0.0066
+Epoch: [11/20]	Loss: 0.0346
+Epoch: [12/20]	Loss: 0.0134
+Epoch: [13/20]	Loss: 0.0058
+Epoch: [14/20]	Loss: 0.0801
+Epoch: [15/20]	Loss: 0.0898
+Epoch: [16/20]	Loss: 0.0347
+Epoch: [17/20]	Loss: 0.0116
+Epoch: [18/20]	Loss: 0.0056
+Epoch: [19/20]	Loss: 0.0109
+wandb: Network error (ReadTimeout), entering retry loop.
+Epoch: [20/20]	Loss: 0.0159

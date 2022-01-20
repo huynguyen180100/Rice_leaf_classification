@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.13.0-25-generic-x86_64-with-glibc2.17",
+    "python": "3.8.11",
+    "heartbeatAt": "2022-01-20T08:29:06.714864",
+    "startedAt": "2022-01-20T08:29:04.270083",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/huynth/.local/share/jupyter/runtime/kernel-392deeb9-48b1-43dc-8ebf-7e52d32dc498.json"
+    ],
+    "state": "running",
+    "program": "pytorch_practice/MNIST-wandb.ipynb",
+    "root": "/home/huynth/pytorch_practice",
+    "git": {
+        "remote": "https://github.com/huynth1801/Pytorch_practice",
+        "commit": "92fc470a2dfa9447de4d84d41ab518530b45bdfb"
+    },
+    "email": "huuhuy1801@gmail.com",
+    "host": "huynth",
+    "username": "huynth",
+    "executable": "/home/huynth/miniconda3/envs/pytorch/bin/python"
+}
