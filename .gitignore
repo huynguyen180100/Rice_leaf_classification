@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 data/
-=======
-data/
-.ipynb_checkpoints
-.ipynb_checkpoints/
-Save
->>>>>>> fashion_mnist feedforward
+/Users/nguyenthaihuuhuy/Excercise/Pytorch Practice/DL/Flower Classification/models/__pycache__
+/Users/nguyenthaihuuhuy/Excercise/Pytorch Practice/DL/Flower Classification/.ipynb_checkpoints
+/Users/nguyenthaihuuhuy/Excercise/Pytorch Practice/.ipynb_checkpoints
