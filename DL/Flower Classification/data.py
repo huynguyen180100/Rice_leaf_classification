@@ -40,7 +40,7 @@ class FlowerDataModule(pl.LightningDataModule):
             transforms.RandomHorizontalFlip(p=0.5),
             transforms.RandomInvert(p=0.5),
             transforms.ToTensor(),
-            self.normalization
+            self.normalize
         ])
 
     @property
@@ -48,7 +48,7 @@ class FlowerDataModule(pl.LightningDataModule):
         return transforms.Compose([
             transforms.Resize(self.image_size, interpolation=InterpolationMode.BICUBIC),
             transforms.ToTensor(),
-            self.normalization
+            self.normalize
         ])
 
     def _dataloader(self, mode):
@@ -57,9 +57,9 @@ class FlowerDataModule(pl.LightningDataModule):
             is_shuffle = True
             train_path = os.path.join(self.data_dir, "train")
             data = MyImageFolder(root=train_path, transform=self.train_transforms)
-        if mode == "valid":
-            valid_path = os.path.join(self.data_dir, "valid")
-            data = MyImageFolder(root=valid_path, transform=self.valid_transforms)
+        if mode == "val":
+            valid_path = os.path.join(self.data_dir, "val")
+            data = MyImageFolder(root=valid_path, transform=self.val_transforms)
         return DataLoader(dataset=data,
                         batch_size=self.batch_size,
                         num_workers=self.num_workers,
@@ -69,4 +69,4 @@ class FlowerDataModule(pl.LightningDataModule):
         return self._dataloader(mode="train")
 
     def val_dataloader(self):
-        return self._dataloader(mode="valid")
+        return self._dataloader(mode="val")
