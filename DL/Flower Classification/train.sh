@@ -1,9 +1,9 @@
 python cli.py \
     --trainer.gpus=0         \
     --trainer.max_epochs=40 \
-    --trainer.default_root_dir='logs/vanila_mlp' \
+    --trainer.default_root_dir='logs/mlp_mixer' \
     --trainer.log_every_n_steps=5 \
-    --model.model_name="vanila" \
+    --model.model_name="mixer" \
     --model.optimizer="adam" \
     --model.learning_rate=0.001 \
     --model.num_classes=5 \
