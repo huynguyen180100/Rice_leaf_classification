@@ -1,1 +1,2 @@
-wget https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz && tar xzf flower_photos.tgz
+gdown --id  1LBTveZclLxqT4Iqr_G7seg3790oKa1_E && 
+unzip flower_photo.zip -d data
